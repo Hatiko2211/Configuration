@@ -1,0 +1,39 @@
+{
+  "type": "dir",
+  "owner": "root",
+  "children": {
+    "home": {
+      "type": "dir",
+      "owner": "root",
+      "children": {
+        "student": {
+          "type": "dir",
+          "owner": "student",
+          "children": {
+            "welcome.txt": {
+              "type": "file",
+              "owner": "student",
+              "content": "Welcome to Variant 11!\n"
+            }
+          }
+        }
+      }
+    },
+    "tmp": {
+      "type": "dir",
+      "owner": "root",
+      "children": {}
+    },
+    "etc": {
+      "type": "dir",
+      "owner": "root",
+      "children": {
+        "motd": {
+          "type": "file",
+          "owner": "root",
+          "content": "Virtual UNIX shell\n"
+        }
+      }
+    }
+  }
+}
